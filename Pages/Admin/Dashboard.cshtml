@@ -1,0 +1,29 @@
+@page "/admin"
+@model LeoEcommerce.Pages.Admin.Dashboard
+@inject DomainContext context;
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <ul class="nav nav-pills nav-stacked">
+            @if (User.IsInRole("Manager") || User.IsInRole("Supervisor"))
+            {
+                <p>
+                    <a href="/admin/product/create">Agregar Producto</a> 
+                </p>
+            }
+            @if (User.IsInRole("Supervisor"))
+            {
+                <li>
+                    <a href="#">Generar Reporte de Venta</a>
+                </li>
+                <li>
+                    <a href="#">Generar Reporte de Inventario</a>
+                </li>
+            }
+        </ul>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+        <h1>Tablero de administrador</h1>
+        {@Html.Partial("Views/Index", context.Product.ToList())}
+    </div>
+</div>

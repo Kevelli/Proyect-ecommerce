@@ -1,0 +1,2951 @@
+/* MAIN STYLE */
+
+body {
+  overflow-x: hidden;
+}
+a,
+button,
+i,
+#shopping-cart .dropdown-menu li a p,
+#new-products a .product-info p,
+.carousel-indicators li,
+#special-products .product-info a,
+#on-sale a.on-sale-product p,
+#ecommerce-offers p.title,
+#ecommerce-offers i,
+#checkout input + label span,
+#checkout input:checked + label span,
+#checkout .address,
+#checkout .address:hover h4,
+#checkout .address:hover p,
+#checkout .address:hover span,
+#checkout .address:hover i,
+#checkout .shipping {
+  transition: all .25s ease-in-out;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #F1F1F1;
+  width: 85%;
+}
+.form-control {
+  border-radius: 0;
+  font-family: 'Montserrat';
+  color: #222;
+  border-color: rgb(254, 85, 85);
+  box-shadow: none;
+}
+.form-control:active,
+.form-control:focus {
+  border-color: rgb(254, 85, 85);
+  box-shadow: none;
+  outline: none;
+}
+.btn-default {
+  background-color: rgb(254, 85, 85);
+  font-family: Montserrat;
+  border-radius: 0;
+  border: none;
+  border-color: transparent;
+  color: #fff;
+  text-transform: uppercase;
+}
+.btn-group.open .dropdown-toggle,
+.btn:hover,
+.btn:active,
+.btn:focus,
+.bootstrap-select .dropdown-toggle:focus,
+.btn-default:active:hover,
+.open>.dropdown-toggle.btn-default.focus,
+.open>.dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover {
+  background-color: #222;
+  box-shadow: none;
+  border: none;
+  outline: none !important;
+  color: #fff;
+}
+.form-control::-webkit-input-placeholder {
+  color: #222;
+}
+.form-control:-moz-placeholder {
+  color: #222;
+  opacity: 1;
+}
+.form-control::-moz-placeholder {
+  color: #222;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #222;
+}
+.dropdown-menu {
+  border: 1px solid #F1F1F1;
+  box-shadow: none;
+  border-radius: 0;
+  margin-top: 15px;
+  padding: 20px;
+}
+#header form .dropdown-menu {
+  padding: 5px 0;
+}
+.dropdown-menu .active a {
+  background-color: transparent;
+  color: #222;
+}
+.dropdown-menu .active a:hover,
+.dropdown-menu .active a:active,
+.dropdown-menu .active a:focus {
+  background-color: transparent;
+  color: rgb(254, 85, 85);
+}
+.dropdown-menu>li>a {
+  font-family: 'Roboto Slab';
+  color: #222;
+  padding: 5px 20px;
+}
+.dropdown-menu li p.title {
+  font-family: 'Roboto Slab';
+  color: #ccc;
+  border-bottom: 1px solid #F1F1F1;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  display: block;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+}
+.dropdown-menu>li>a:hover {
+  color: rgb(254, 85, 85);
+  background-color: transparent;
+}
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+.bootstrap-select.btn-group .no-results {
+  padding: 5px 20px;
+  margin: 0;
+  background-color: transparent;
+  font-family: 'Roboto Slab';
+  color: #ccc;
+}
+.carousel-indicators {
+  position: initial;
+  width: 100%;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.carousel-indicators li,
+.carousel-indicators li.active {
+  border: 2px solid rgb(254, 85, 85);
+  border-radius: 0;
+  width: 11px;
+  height: 11px;
+  margin: 0;
+}
+.carousel-indicators li:hover {
+  width: 11px;
+  height: 11px;
+  background-color: #CCC;
+  border-color: #CCC;
+}
+
+/* ECOMMERCE NAVIGATION */
+
+#ecommerce-navigation {
+  background-color: #222;
+}
+#ecommerce-navigation ul,
+#ecommerce-navigation .nav>li {
+  display: inline-block;
+}
+#ecommerce-navigation ul.nav {
+  float: right;
+}
+#ecommerce-navigation .nav>li>a {
+  padding: 16px 10px;
+  font-family: 'Montserrat';
+  color: #666;
+}
+#ecommerce-navigation .nav>li>a:hover,
+#ecommerce-navigation .nav>li>a:active,
+#ecommerce-navigation .nav>li>a:focus {
+  color: #fff;
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+}
+#ecommerce-navigation .nav>li:last-child>a {
+  padding-right: 0;
+}
+#ecommerce-navigation .schedule {
+  display: inline-block;
+}
+#ecommerce-navigation .schedule p {
+  margin: 0;
+  padding: 16px 15px;
+  color: #666;
+  font-family: 'Roboto Slab';
+  padding-left: 0;
+}
+#ecommerce-navigation .schedule p span {
+  color: #fff;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+#ecommerce-navigation .schedule p i {
+  color: rgb(254, 85, 85);
+  top: 2px;
+  margin-left: 10px;
+}
+
+/* HEADER */
+
+#header {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+  border-bottom: 1px solid #F1F1F1;
+}
+#header img {
+  width: 100%;
+}
+#header .row {
+  display: table;
+}
+#header .header-col {
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+#header form {
+  position: relative;
+}
+#header .search-field {
+  height: 45px;
+  padding-left: 33%;
+  padding-right: 18%;
+}
+#header .bootstrap-select {
+  height: 45px;
+  position: absolute;
+  border-right: none;
+  bottom: 0;
+  width: 30%;
+  left: 0;
+  top: 0;
+}
+#header .bootstrap-select .btn {
+  height: 100%;
+}
+#header .search-btn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+#header .bs-searchbox input {
+  border: none;
+  border-bottom: 1px solid #F1F1F1;
+  color: #ccc;
+  font-family: 'Roboto Slab';
+  padding: 0;
+}
+#header .bs-searchbox {
+  padding: 0 15px;
+  margin-bottom: 10px;
+}
+
+/* SHOPPING CART */
+
+#shopping-cart p {
+  margin: 0;
+  font-family: 'Montserrat';
+  color: #222;
+  font-size: 14px;
+}
+#shopping-cart p span {
+  color: rgb(254, 85, 85);
+  font-family: 'Roboto Slab';
+}
+#shopping-cart {
+  cursor: pointer;
+}
+#shopping-cart .shopping-cart-info {
+  float: right;
+}
+#shopping-cart .glyphicon-chevron-down {
+  float: right;
+  margin-left: 15px;
+  color: rgb(254, 85, 85);
+  padding-top: 13px;
+}
+#shopping-cart .shopping-cart-icon {
+  float: left !important;
+  height: 42px;
+  width: auto;
+  position: relative;
+  bottom: 3px;
+}
+#shopping-cart .dropdown,
+#shopping-cart .dropup {
+  position: initial;
+}
+#shopping-cart .dropdown-menu {
+  right: 15px;
+  left: 15px;
+}
+#shopping-cart .dropdown-menu li a {
+  padding: 15px 0;
+}
+#shopping-cart .dropdown-menu li p.title {
+  color: #ccc;
+  border-bottom: 1px solid #F1F1F1;
+  padding: 0;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  display: block;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  font-size: 14px;
+}
+#shopping-cart .dropdown-menu li a.cart-item {
+  position: relative;
+}
+#shopping-cart .dropdown-menu li a.cart-item p {
+  font-family: 'Montserrat';
+  white-space: normal;
+}
+#shopping-cart .dropdown-menu li a.cart-item p.price {
+  color: rgb(70, 184, 212);
+  margin-top: 10px;
+  font-family: 'Roboto Slab';
+}
+#shopping-cart .dropdown-menu li a.cart-item:hover p {
+  color: #ccc;
+}
+#shopping-cart .dropdown-menu li a.cart-item:hover p.price {
+  color: rgb(70, 184, 212);
+}
+#shopping-cart .dropdown-menu .product-info {
+  padding-left: 0;
+}
+#shopping-cart .dropdown-menu li.cart-check {
+  border-top: 1px solid #F1F1F1;
+}
+#shopping-cart .dropdown-menu li.cart-check .btn-default {
+  font-family: 'Montserrat';
+  display: inline-block;
+  color: #fff;
+  margin-top: 15px;
+  padding: 10px 10px;
+}
+#shopping-cart .dropdown-menu li.cart-check .btn-default:hover {
+  color: #fff;
+  background-color: #222;
+}
+#shopping-cart .dropdown-menu li.cart-check .btn-default:first-child {
+  background-color: transparent;
+  border: 1px solid #F1F1F1;
+  padding-bottom: 9px;
+  padding-top: 9px;
+  color: #ccc;
+}
+
+/* NAVBAR */
+
+#ecommerce-navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+#ecommerce-navbar .navbar-collapse {
+  text-align: center;
+}
+#ecommerce-navbar {
+  border: none;
+  border-bottom: 1px solid #F1F1F1;
+  border-color: #F1F1F1;
+  background-color: #fff;
+  box-shadow: none;
+  margin-bottom: 40px;
+}
+#ecommerce-navbar .navbar-nav>li>a {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  color: #222;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  border: none;
+  border-right: 1px solid #F1F1F1;
+}
+#ecommerce-navbar .navbar-nav>li:last-child>a {
+  border: none;
+}
+#ecommerce-navbar .navbar-nav>li>a:focus,
+#ecommerce-navbar .navbar-nav>li>a:hover {
+  color: rgb(254, 85, 85);
+  outline: none;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+/* SIDEBAR */
+
+#sidebar .title {
+  margin-bottom: 40px;
+  padding: 0;
+  border-bottom: 1px solid #F1F1F1;
+  padding-bottom: 20px;
+}
+#sidebar .title p {
+  font-family: 'Montserrat';
+  margin: 0;
+  text-transform: uppercase;
+  color: rgb(254, 85, 85);
+  padding: 0;
+  display: inline;
+}
+#sidebar .title i {
+  margin-right: 10px;
+  color: #222;
+  font-size: 12px;
+}
+#sidebar a.ad-link {
+  margin-bottom: 40px !important;
+  margin-top: 20px !important;
+}
+#sidebar #week-deals {
+  border: 1px solid #F1F1F1;
+}
+#sidebar #week-deals img {
+  padding: 20px;
+}
+#sidebar #week-deals .product-info {
+  margin: 20px 0;
+  padding: 0 20px;
+}
+#sidebar #week-deals .product-info a.product-name {
+  color: #222;
+  font-family: 'Montserrat';
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+#sidebar #week-deals .product-info a.product-name:hover {
+  color: rgb(254, 85, 85);
+  text-decoration: none;
+}
+#sidebar #week-deals .product-info a.product-category {
+  font-family: 'Roboto Slab';
+  color: #ccc;
+  margin-bottom: 20px;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+#sidebar #week-deals .product-info a.product-category:hover {
+  color: rgb(254, 85, 85);
+  text-decoration: none;
+}
+#sidebar #week-deals .product-info p {
+  color: rgb(70, 184, 212);
+  font-family: 'Roboto Slab';
+  font-size: 18px;
+  margin: 0;
+  display: inline;
+}
+#sidebar #week-deals .product-info p strike {
+  color: #ccc;
+  margin-left: 10px;
+  font-size: 12px;
+}
+#sidebar #week-deals .product-info .rating {
+  display: inline;
+  float: right;
+}
+#sidebar #week-deals .product-info .rating .glyphicon {
+  top: 5px;
+}
+#sidebar #week-deals .product-info .rating .positive {
+  color: rgb(254, 85, 85);
+}
+#sidebar #week-deals .product-info .rating .negative {
+  color: #ccc;
+}
+#sidebar .deal-end {
+  background-color: #F1F1F1;
+  padding: 15px 20px;
+}
+#sidebar .deal-end p:first-child {
+  color: #222;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+  display: inline;
+}
+#sidebar .deal-end p i {
+  color: rgb(254, 85, 85);
+  margin-right: 10px;
+}
+#sidebar .deal-end p:last-child {
+  color: #222;
+  font-family: 'Montserrat';
+  display: inline;
+  float: right;
+}
+#sidebar .deal-end p:last-child span {
+  color: rgb(254, 85, 85);
+}
+#sidebar .carousel-controls {
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+#sidebar .carousel-controls a {
+  color: #ccc;
+  border-bottom: 3px solid #F1F1F1;
+  padding: 10px;
+  padding-top: 0;
+  display: inline-block;
+}
+#sidebar .carousel-controls a:hover {
+  border-color: rgb(254, 85, 85);
+  color: #ccc;
+  text-decoration: none;
+}
+#sidebar .carousel-controls a:first-child {
+  margin-right: 10px;
+}
+#sidebar .carousel-controls a:first-child .glyphicon {
+  left: 1px;
+}
+#sidebar .carousel-controls a:last-child {
+  margin-left: 10px;
+  padding: 10px 11px;
+  padding-top: 0;
+}
+#sidebar a.ad-link:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* FILTERS */
+
+#filter {
+  margin-bottom: 40px;
+}
+#filter label {
+  display: inline;
+  width: auto;
+  font-family: 'Montserrat';
+  color: #222;
+}
+#filter p {
+  color: #222;
+  font-family: 'Montserrat';
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #F1F1F1;
+  text-transform: uppercase;
+}
+#filter .ui-widget-content {
+  background-image: none;
+  background-color: transparent;
+  border-radius: 0;
+  border-color: #F1F1F1;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#filter .ui-state-hover,
+#filter .ui-widget-content .ui-state-hover,
+#filter .ui-widget-header .ui-state-hover,
+#filter .ui-state-focus,
+#filter .ui-widget-content .ui-state-focus,
+#filter .ui-widget-header .ui-state-focus,
+#filter .ui-state-default,
+#filter .ui- widget-content .ui-state-default,
+#filter .ui-widget-header .ui-state-default {
+  background-image: none;
+  border-radius: 1000px;
+  background-color: rgb(254, 85, 85);
+  box-shadow: 0 0 0 3px #F1F1F1, 0 0 0 6px rgb(254, 85, 85);
+  border-color: transparent;
+}
+#filter .ui-slider .ui-slider-handle {
+  width: 10px;
+  height: 10px;
+  top: 0;
+}
+#filter .ui-widget-header {
+  background-image: none;
+  background-color: rgb(254, 85, 85);
+}
+#filter .filter-submit {
+  margin-bottom: 40px;
+}
+#filter .filter-submit input {
+  font-weight: normal !important;
+  display: inline;
+  width: 100px;
+  color: rgb(254, 85, 85) !important;
+  padding: 5px;
+  border: 1px solid rgb(254, 85, 85) !important;
+  text-align: center;
+  font-family: 'Roboto Slab';
+  width: 100%;
+  background-color: #F1F1F1
+}
+#filter .filter-submit .btn-default {
+  width: 100%;
+}
+#filter .nav {
+  margin-bottom: 40px;
+}
+#filter .nav:last-child {
+  margin-bottom: 0;
+}
+#filter .nav>li>a {
+  padding: 10px 0;
+  color: #222;
+  font-family: 'Montserrat';
+}
+#filter .nav>li>a:hover,
+#filter .nav>li>a:active,
+#filter .nav>li>a:focus {
+  background-color: transparent;
+  color: rgb(254, 85, 85);
+}
+#filter .nav>li>a span {
+  float: right;
+  color: #ccc;
+  font-family: 'Roboto Slab';
+}
+
+/* MOBILE SIDEBAR */
+
+.sidr-open,
+.sidr-animating {
+  overflow: hidden;
+}
+.sidr {
+  background-color: #F6F6F6;
+  font-size: 14px;
+  box-shadow: none;
+  border: none !important;
+  padding: 10px 15px;
+  overflow-x: hidden;
+}
+.sidr p {
+  font-size: 14px;
+}
+.sidr p.title {
+  font-family: 'Montserrat';
+  border-bottom: 1px solid #F1F1F1;
+  color: #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.sidr img {
+  width: 100%;
+}
+.sidr ul {
+  border: none;
+}
+.sidr ul li,
+.sidr ul li:hover,
+.sidr ul li:active,
+.sidr ul li:focus {
+  line-height: inherit;
+  border: none !important;
+}
+.sidr ul li:hover>span,
+.sidr ul li.active>a,
+.sidr ul li.active>span,
+.sidr ul li.sidr-class-active>a,
+.sidr ul li.sidr-class-active>span {
+  box-shadow: none;
+  border: none !important;
+}
+.sidr ul li:hover>a {
+  box-shadow: none;
+}
+.sidr ul li a {
+  color: #222;
+}
+.sidr ul li a,
+.sidr ul li span {
+  padding: 10px;
+}
+.sidr a.cart-item {
+  padding: 0;
+  margin-bottom: 20px;
+}
+.sidr .product-info p {
+  font-family: 'Montserrat';
+  color: #222
+}
+.sidr .product-info p.price {
+  color: rgb(70, 184, 212);
+  font-family: 'Roboto Slab';
+  margin-bottom: 0;
+}
+.sidr .btn-default {
+  font-family: 'Montserrat';
+}
+.sidr .btn-default:first-child {
+  background-color: transparent;
+  border: 1px solid #F1F1F1 !important;
+  padding-bottom: 9px;
+  padding-top: 9px;
+  color: #ccc;
+}
+.sidr .btn-default:last-child {
+  color: #fff;
+}
+.sidr .cart-check {
+  width: 215px;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 10px;
+  right: 30px;
+  background-color: #F6F6F6;
+}
+.sidr .cart-check:last-child {
+  margin-bottom: 0;
+}
+#sidr-menu-left a {
+  color: #222;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+#sidr-menu-left li:last-child a {
+  border-bottom: none;
+}
+#sidr-menu-left a:hover {
+  color: rgb(254, 85, 85);
+}
+#sidr-menu-right ul {
+  padding-bottom: 60px;
+}
+
+/* CATEGORIES */
+
+#categories {
+  background-color: #fff;
+  border: 1px solid #F1F1F1;
+  padding: 20px 15px;
+  margin-bottom: 20px;
+}
+#categories .title {
+  margin: 0 -15px;
+  padding: 0 30px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+#categories ul li a {
+  padding: 15px 30px;
+  margin: 0 -15px;
+  color: #222;
+  font-family: 'Montserrat';
+  border-left: 3px solid transparent;
+}
+#categories ul li a:hover,
+#categories ul li a:active,
+#categories ul li a:focus {
+  background-color: transparent;
+  border-color: rgb(254, 85, 85);
+  color: rgb(254, 85, 85);
+}
+#categories ul li:first-child a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#categories ul li:last-child a {
+  padding-bottom: 20px;
+}
+
+/* ON SALE */
+
+#on-sale {
+  border: 1px solid #F1F1F1;
+  padding: 20px 15px;
+  margin-bottom: 20px;
+}
+#on-sale .on-sale-product {
+  display: inline-flex;
+  width: 100%;
+}
+#on-sale img {
+  width: 100%;
+}
+#on-sale .product-info p {
+  color: #222;
+  font-family: 'Montserrat';
+  margin-bottom: 0;
+}
+#on-sale .product-info p.price {
+  color: rgb(70, 184, 212);
+  font-family: 'Roboto Slab';
+  margin: 0;
+}
+#on-sale .product-info .rating {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#on-sale .product-info .rating .positive {
+  color: rgb(254, 85, 85);
+}
+#on-sale .product-info .rating .negative {
+  color: #ccc;
+}
+#on-sale a.on-sale-product:hover .product-info p {
+  color: #ccc;
+}
+#on-sale a.on-sale-product:hover .product-info p.price {
+  color: rgb(70, 184, 212);
+}
+#on-sale .product-actions {
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+#on-sale .product-actions a {
+  color: #222;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+}
+#on-sale .product-actions a i {
+  color: rgb(254, 85, 85);
+  margin-right: 10px;
+}
+#on-sale .product-actions a:hover {
+  color: rgb(254, 85, 85);
+}
+
+/* MAIN CONTENT */
+
+#main-content .title {
+  margin-bottom: 40px;
+  padding: 0;
+  border-bottom: 1px solid #F1F1F1;
+  padding-bottom: 20px;
+}
+#main-content .title p {
+  font-family: 'Montserrat';
+  margin: 0;
+  text-transform: uppercase;
+  color: rgb(254, 85, 85);
+  padding: 0;
+  display: inline;
+}
+#main-content .title i {
+  margin-right: 10px;
+  color: #222;
+  font-size: 12px;
+}
+#main-content .title .carousel-controls {
+  display: inline;
+  float: right;
+}
+#main-content .title .carousel-controls a {
+  color: #ccc;
+  border-top: 3px solid #F1F1F1;
+  padding: 5px;
+  display: inline-block;
+}
+#main-content .title .carousel-controls a:first-child {
+  margin-right: 10px;
+}
+#main-content .title .carousel-controls a:first-child .glyphicon {
+  left: 1px;
+}
+#main-content .title .carousel-controls a:last-child {
+  margin-left: 10px;
+}
+#main-content .title .carousel-controls a:hover {
+  border-color: rgb(254, 85, 85);
+}
+
+/* NEW PRODUCTS */
+
+#new-products {
+  border: 1px solid #F1F1F1;
+  padding: 30px 30px;
+}
+#new-products img {
+  width: 100%;
+}
+#new-products .product-info p {
+  color: #222;
+  font-family: 'Montserrat';
+  margin-bottom: 0;
+  height: 40px;
+  overflow: hidden;
+}
+#new-products .product-info p.price {
+  color: rgb(70, 184, 212);
+  font-family: 'Roboto Slab';
+  margin: 0;
+}
+#new-products .product-info .rating {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#new-products .product-info .rating .positive {
+  color: rgb(254, 85, 85);
+}
+#new-products .product-info .rating .negative {
+  color: #ccc;
+}
+#new-products a:hover .product-info p {
+  color: #ccc;
+}
+#new-products a:hover .product-info p.price {
+  color: rgb(70, 184, 212);
+}
+
+/* SPECIAL PRODUCTS */
+
+#special-products {
+  margin-bottom: 40px;
+}
+#special-products img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#special-products .product-info a {
+  width: 100%;
+  display: block;
+}
+#special-products .product-info a.product-name {
+  color: #222;
+  font-family: 'Montserrat';
+  height: 40px;
+  overflow: hidden;
+}
+#special-products .product-info a.product-category {
+  color: #ccc;
+  margin-bottom: 20px;
+  font-family: 'Roboto Slab';
+}
+#special-products .product-info a:hover {
+  text-decoration: none;
+  color: rgb(254, 85, 85);
+}
+#special-products .product-info p {
+  color: rgb(70, 184, 212);
+  font-family: 'Roboto Slab';
+  font-size: 18px;
+  margin: 0;
+  display: inline;
+}
+#special-products .product-info p strike {
+  color: #ccc;
+  margin-left: 10px;
+  font-size: 12px;
+}
+#special-products .product-info .rating {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline;
+  float: right;
+}
+#special-products .product-info .rating .positive {
+  color: rgb(254, 85, 85);
+}
+#special-products .product-info .rating .negative {
+  color: #ccc;
+}
+#special-products .product-info .product-actions {
+  border-top: 1px solid #F1F1F1;
+  border-bottom: 1px solid #F1F1F1;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+#special-products .product-info .product-actions a {
+  color: #222;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+}
+#special-products .product-info .product-actions a:hover {
+  color: rgb(254, 85, 85);
+}
+#special-products .product-info .product-actions a i {
+  color: rgb(254, 85, 85);
+  margin-right: 10px;
+}
+
+/* BEST SELLERS */
+
+#best-sellers {
+  margin-bottom: 40px;
+}
+#best-sellers img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#best-sellers .product-info a {
+  width: 100%;
+  display: block;
+}
+#best-sellers .product-info a.product-name {
+  color: #222;
+  font-family: 'Montserrat';
+  height: 40px;
+  overflow: hidden;
+}
+#best-sellers .product-info a.product-category {
+  color: #ccc;
+  margin-bottom: 20px;
+  font-family: 'Roboto Slab';
+}
+#best-sellers .product-info a:hover {
+  text-decoration: none;
+  color: rgb(254, 85, 85);
+}
+#best-sellers .product-info p {
+  color: rgb(70, 184, 212);
+  font-family: 'Roboto Slab';
+  font-size: 18px;
+  margin: 0;
+  display: inline;
+}
+#best-sellers .product-info p strike {
+  color: #ccc;
+  margin-left: 10px;
+  font-size: 12px;
+}
+#best-sellers .product-info .rating {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline;
+  float: right;
+}
+#best-sellers .product-info .rating .positive {
+  color: rgb(254, 85, 85);
+}
+#best-sellers .product-info .rating .negative {
+  color: #ccc;
+}
+#best-sellers .product-info .product-actions {
+  border-top: 1px solid #F1F1F1;
+  border-bottom: 1px solid #F1F1F1;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+#best-sellers .product-info .product-actions a {
+  color: #222;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+}
+#best-sellers .product-info .product-actions a:hover {
+  color: rgb(254, 85, 85);
+}
+#best-sellers .product-info .product-actions a i {
+  color: rgb(254, 85, 85);
+  margin-right: 10px;
+}
+
+/* CATEGORY COLUMN */
+
+#category-column {
+  margin-bottom: 40px;
+}
+#category-column img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#category-column .product-info a {
+  width: 100%;
+  display: block;
+}
+#category-column .product-info a.product-name {
+  color: #222;
+  font-family: 'Montserrat';
+  height: 40px;
+  overflow: hidden;
+}
+#category-column .product-info a.product-category {
+  color: #ccc;
+  margin-bottom: 20px;
+  font-family: 'Roboto Slab';
+}
+#category-column .product-info a:hover {
+  text-decoration: none;
+  color: rgb(254, 85, 85);
+}
+#category-column .product-info p {
+  color: rgb(70, 184, 212);
+  font-family: 'Roboto Slab';
+  font-size: 18px;
+  margin: 0;
+  display: inline;
+}
+#category-column .product-info p strike {
+  color: #ccc;
+  margin-left: 10px;
+  font-size: 12px;
+}
+#category-column .product-info .rating {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline;
+  float: right;
+}
+#category-column .product-info .rating .positive {
+  color: rgb(254, 85, 85);
+}
+#category-column .product-info .rating .negative {
+  color: #ccc;
+}
+#category-column .product-info .product-actions {
+  border-top: 1px solid #F1F1F1;
+  border-bottom: 1px solid #F1F1F1;
+  padding: 10px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#category-column .product-info .product-actions a {
+  color: #222;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+}
+#category-column .product-info .product-actions a:hover {
+  color: rgb(254, 85, 85);
+}
+#category-column .product-info .product-actions a i {
+  color: rgb(254, 85, 85);
+  margin-right: 10px;
+}
+
+/* CATEGORY LIST */
+
+#category-list .product {
+  margin-bottom: 40px;
+  width: 100%;
+  display: inline-block;
+}
+#category-list img {
+  width: 100%;
+}
+#category-list .product-info a.product-name {
+  color: #222;
+  font-family: 'Montserrat';
+  display: inline;
+  margin-right: 10px;
+  font-size: 16px;
+}
+#category-list .product-info a.product-name:hover,
+#category-list .product-info a.product-category:hover {
+  color: rgb(254, 85, 85);
+}
+#category-list .product-info a.product-category {
+  color: #ccc;
+  font-family: 'Roboto Slab';
+}
+#category-list .product-info p.price {
+  color: rgb(70, 184, 212);
+  font-family: 'Roboto Slab';
+  font-size: 18px;
+  margin: 0;
+  margin-top: 10px;
+}
+#category-list .product-info p.price strike {
+  color: #ccc;
+  margin-left: 10px;
+  font-size: 12px;
+}
+#category-list .product-info .rating {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+#category-list .product-info .rating .positive {
+  color: rgb(254, 85, 85);
+}
+#category-list .product-info .rating .negative {
+  color: #ccc;
+}
+#category-list .product-description {
+  font-family: 'Roboto Slab';
+  color: #ccc;
+  margin-top: 10px;
+  line-height: 1.7;
+}
+#category-list .product-info .product-actions {
+  padding: 10px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#category-list .product-info .product-actions a {
+  color: #222;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+}
+#category-list .product-info .product-actions a:hover {
+  color: rgb(254, 85, 85);
+}
+#category-list .product-info .product-actions a i {
+  color: rgb(254, 85, 85);
+  margin-right: 10px;
+}
+#shop-category #categories {
+  margin-bottom: 40px;
+}
+#shop-category #ecommerce-offers {
+  margin-top: 20px;
+}
+#shop-category #main-content h2 {
+  font-family: 'Montserrat';
+  color: #222;
+  margin: 0;
+  display: inline;
+}
+#shop-category #main-content .breadcrumb {
+  display: inline;
+  float: right;
+  background-color: transparent;
+}
+#shop-category #main-content .breadcrumb a {
+  color: rgb(254, 85, 85);
+  font-family: 'Montserrat';
+}
+#shop-category #main-content .breadcrumb a:hover {
+  color: #222;
+}
+#shop-category #main-content .breadcrumb .active {
+  font-family: 'Montserrat';
+  color: #ccc;
+}
+#shop-category #main-content .item-display {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  width: 100%;
+  border-bottom: 1px solid #F1F1F1;
+  display: inline-block
+}
+#shop-category #main-content .item-display .dropdown-menu>li>a {
+  padding: 5px 0;
+}
+#shop-category .form-group .bootstrap-select.btn-group,
+#shop-category .form-horizontal .bootstrap-select.btn-group,
+#shop-category .form-inline .bootstrap-select.btn-group {
+  width: inherit;
+}
+#shop-category #main-content .item-display .btn-group-vertical>.btn,
+#shop-category #main-content .item-display .btn-group>.btn {
+  float: inherit
+}
+#shop-category #main-content .item-display .item-display-info p {
+  margin: 0;
+  margin-top: 6px;
+  font-family: 'Roboto Slab';
+  color: #222;
+}
+#shop-category #main-content .item-display label {
+  color: #222;
+  font-family: 'Roboto Slab';
+  font-weight: 400;
+}
+#shop-category #main-content .item-display .form-control {
+  background-color: transparent;
+  color: #222;
+  margin: 0 10px;
+  font-family: 'Roboto Slab';
+  border: 1px solid #F1F1F1;
+  text-transform: none;
+}
+#shop-category #main-content .item-display .btn-default {
+  background-color: transparent;
+  font-family: 'Roboto Slab';
+  color: #222;
+  text-transform: none;
+}
+#shop-category #main-content .item-display .display-order {
+  margin-left: 10px;
+}
+#shop-category #main-content .item-display .display-order button,
+#shop-category #main-content .item-display .display-order button:active,
+#shop-category #main-content .item-display .display-order button:focus {
+  color: #222;
+  border-radius: 0;
+  border: 1px solid #F1F1F1;
+  padding: 6px 10px;
+  background-color: transparent;
+  box-shadow: none;
+  outline: none;
+  transition: all .25s ease-in-out;
+}
+#shop-category #main-content .item-display .display-order button:hover {
+  color: rgb(254, 85, 85);
+}
+#shop-category #main-content .item-display [type="number"] {
+  width: 80px;
+}
+#shop-category #main-content .pagination>li>a,
+#shop-category #main-content .pagination>li>span {
+  color: #222;
+  border: 1px solid #F1F1F1;
+  border-radius: 0;
+  margin: 0 5px;
+  font-family: 'Roboto Slab';
+}
+#shop-category #main-content .pagination li:first-child a,
+#shop-category #main-content .pagination li:last-child a,
+#shop-category #main-content .pagination li:first-child a,
+#shop-category #main-content .pagination li:last-child a {
+  padding: 6px 9px;
+}
+#shop-category #main-content .pagination li:first-child a i,
+#shop-category #main-content .pagination li:last-child a i,
+#shop-category #main-content .pagination li:first-child a i,
+#shop-category #main-content .pagination li:last-child a i {
+  color: rgb(254, 85, 85);
+}
+#shop-category #main-content .pagination>.active>a,
+#shop-category #main-content .pagination>.active>a:focus,
+#shop-category #main-content .pagination>.active>a:hover,
+#shop-category #main-content .pagination>.active>span,
+#shop-category #main-content .pagination>.active>span:focus,
+#shop-category #main-content .pagination>.active>span:hover {
+  background-color: rgb(254, 85, 85);
+  border-color: rgb(254, 85, 85);
+  color: #fff;
+}
+
+/* PRODUCT */
+
+#product #main-content .carousel-indicators {
+  margin-bottom: 0;
+}
+#product .zoom {
+  overflow: hidden;
+  display: inline-block;
+}
+#product .carousel-indicators li,
+#product .carousel-indicators li.active {
+  text-indent: 0;
+  width: 33.3333%;
+  display: inline-table;
+  border: none;
+  margin-bottom: 30px;
+}
+#product .carousel-indicators li:hover,
+#product .carousel-indicators li.active:hover {
+  opacity: 0.5;
+  background-color: transparent;
+}
+#product .carousel-indicators li img {
+  width: 100%;
+}
+#product h2 {
+  color: #222;
+  font-family: 'Montserrat';
+  display: inline;
+  margin-top: 0;
+  font-size: 24px;
+}
+#product .category {
+  display: inline;
+  color: #ccc;
+  font-family: 'Roboto Slab';
+  margin-left: 10px;
+}
+#product .category:hover {
+  color: rgb(254, 85, 85);
+}
+#product .rating {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#product .rating .positive {
+  color: rgb(254, 85, 85);
+}
+#product .rating .negative {
+  color: #ccc;
+}
+#product .rating a {
+  display: inline;
+  margin-left: 10px;
+  font-family: 'Roboto Slab';
+  color: rgb(254, 85, 85);
+}
+#product .rating a:hover {
+  color: #222;
+}
+#product .rating p {
+  display: inline;
+  color: #222;
+  font-family: 'Roboto Slab';
+  margin: 0;
+  margin-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #F1F1F1;
+}
+#product #main-content .price {
+  color: rgb(70, 184, 212);
+  font-size: 24px;
+  font-family: 'Roboto Slab';
+  margin-bottom: 20px;
+}
+#product .price strike {
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 10px;
+}
+#product .available {
+  color: #31C335;
+  font-family: 'Roboto Slab';
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #F1F1F1;
+}
+#product .available i {
+  margin-right: 10px;
+}
+#product .description {
+  color: #666;
+  font-family: 'Roboto Slab';
+  padding-bottom: 40px;
+  border-bottom: 1px solid #F1F1F1;
+  margin-bottom: 40px;
+  margin-top: 0;
+  line-height: 1.7;
+}
+#product .product-actions {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #F1F1F1;
+}
+#product .product-actions .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+  width: 100%;
+}
+#product .product-actions p {
+  color: #222;
+  font-family: 'Montserrat';
+  margin-top: 0;
+}
+#product .product-actions .btn {
+  background-color: #fff;
+  border: 1px solid #F1F1F1;
+  font-family: 'Roboto Slab';
+  color: #222;
+  border-radius: 0;
+  text-transform: none;
+}
+#product .product-actions .dropdown-menu>li>a {
+  padding: 5px 0;
+}
+#product .product-order input {
+  display: inline;
+  background-color: #fff;
+  font-family: 'Roboto Slab';
+  border: 1px solid #F1F1F1;
+  color: #222;
+  width: 80px;
+  margin-right: 10px;
+  height: 41px;
+}
+#product .product-order .btn {
+  color: #fff;
+  padding: 10px 22px;
+}
+#product .product-order .btn i {
+  margin-right: 10px;
+}
+#product .title .breadcrumb {
+  margin: 0;
+  background-color: transparent;
+  padding-right: 0;
+  padding-left: 0;
+  float: right;
+}
+#product .title .carousel-controls {
+  float: none;
+}
+#product .title .breadcrumb a {
+  color: rgb(254, 85, 85);
+  font-family: 'Montserrat';
+}
+#product .title .breadcrumb .active {
+  color: #ccc;
+  font-family: 'Montserrat';
+}
+#product .title .breadcrumb a:hover {
+  color: #222;
+}
+
+/* SHOPPING CART */
+
+#cart .title .breadcrumb {
+  margin: 0;
+  background-color: transparent;
+  padding-right: 0;
+  padding-left: 0;
+  float: right;
+}
+#cart .title .carousel-controls {
+  float: none;
+}
+#cart .title .breadcrumb a {
+  color: rgb(254, 85, 85);
+  font-family: 'Montserrat';
+}
+#cart .title .breadcrumb .active {
+  color: #ccc;
+  font-family: 'Montserrat';
+}
+#cart .title .breadcrumb a:hover {
+  color: #222;
+}
+#cart .title h2 {
+  color: #222;
+  font-family: 'Montserrat';
+  display: inline;
+  margin: 0;
+}
+#cart td,
+#cart th {
+  border-bottom: 1px solid #F1F1F1;
+}
+#cart .table {
+  margin-bottom: 40px;
+}
+#cart .table td:first-child {
+  width: 10%;
+}
+#cart .table td {
+  width: 18%;
+  vertical-align: middle;
+  color: #222;
+  font-family: 'Montserrat';
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+#cart .table td.price {
+  font-family: 'Roboto Slab';
+  font-size: 20px;
+  color: rgb(70, 184, 212)
+}
+#cart .table td.price strike {
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 10px;
+}
+#cart .table img {
+  width: 100%;
+  margin-right: 10px;
+}
+#cart .table a {
+  font-family: 'Montserrat';
+  color: #222;
+}
+#cart .table a.product-name {
+  height: 38px;
+  overflow: hidden;
+  display: inline-block;
+}
+#cart .table a:hover {
+  color: rgb(254, 85, 85);
+}
+#cart .table a.category {
+  font-family: 'Roboto Slab';
+  color: #ccc;
+  display: block;
+}
+#cart .table a.category:hover {
+  color: rgb(254, 85, 85);
+}
+#cart .table .form-control {
+  width: 50%;
+  border-color: #F1F1F1;
+}
+#cart .table th {
+  font-family: 'Montserrat';
+  color: #222;
+  border-top: none;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+#cart .table tr .close {
+  position: absolute;
+  top: 52px;
+  right: 0;
+  font-size: 14px;
+  color: rgb(254, 85, 85);
+  display: none;
+  opacity: 1;
+}
+#cart .table tr .close:hover {
+  color: #ccc;
+}
+#cart .table tr:hover .close {
+  display: inherit;
+}
+#cart .total {
+  float: right;
+  text-align: right;
+  width: 100%;
+  margin-bottom: 40px;
+}
+#cart .total p {
+  display: inline-block;
+  font-family: 'Montserrat';
+  color: #222;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+#cart .total .price {
+  color: rgb(254, 85, 85);
+  font-family: 'Roboto Slab';
+  font-size: 18px;
+  width: 100px;
+}
+#cart .total .sub {
+  margin-bottom: 5px;
+}
+#cart #main-content .continue {
+  background-color: transparent;
+  border: 1px solid #F1F1F1;
+  padding-bottom: 9px;
+  padding-top: 9px;
+  color: #ccc;
+}
+#cart #main-content .btn-default {
+  padding: 10px 10px;
+}
+#cart #main-content .btn-default i {
+  top: 2px;
+  margin-right: 10px;
+}
+
+/* CHECKOUT */
+
+#checkout #shipping-addresses {
+  margin-bottom: 40px;
+  display: inline-block;
+}
+#checkout .title .breadcrumb {
+  margin: 0;
+  background-color: transparent;
+  padding-right: 0;
+  padding-left: 0;
+  float: right;
+}
+#checkout .title .carousel-controls {
+  float: none;
+}
+#checkout .title .breadcrumb a {
+  color: rgb(254, 85, 85);
+  font-family: 'Montserrat';
+}
+#checkout .title .breadcrumb .active {
+  color: #ccc;
+  font-family: 'Montserrat';
+}
+#checkout .title .breadcrumb a:hover {
+  color: #222;
+}
+#checkout .title h2 {
+  color: #222;
+  font-family: 'Montserrat';
+  display: inline;
+  margin: 0;
+}
+#checkout form.form-control {
+  height: inherit;
+  border: none !important;
+}
+#checkout .add-address .form-control,
+#checkout .add-address .btn-default {
+  background-color: #fff;
+  border: 1px solid #F1F1F1;
+  font-family: 'Roboto Slab';
+  color: #222;
+  border-radius: 0;
+  text-transform: none;
+}
+#checkout .add-address p {
+  font-family: 'Roboto Slab';
+  color: #666;
+}
+#checkout .add-address .form-control {
+  margin-bottom: 40px;
+}
+#checkout .add-address .bootstrap-select {
+  border: none;
+}
+#checkout .carousel-inner {
+  overflow: visible;
+}
+#checkout .address {
+  position: relative;
+  border-bottom: 1px solid #F1F1F1;
+}
+#checkout .address:last-child {
+  border-bottom: 0;
+}
+#checkout .address:hover {
+  background-color: #F1F1F1;
+  cursor: pointer;
+  border-color: #F1F1F1;
+}
+#checkout .address:hover h4 {
+  border-color: #222;
+  color: #222;
+}
+#checkout .address:hover p {
+  color: #666;
+}
+#checkout .address:hover span,
+#checkout .address:hover i {
+  color: rgb(254, 85, 85);
+}
+#checkout .addresses h4 {
+  border: none;
+  font-family: 'Montserrat';
+  margin-bottom: 10px;
+  color: #222;
+  margin-top: 0;
+}
+#checkout .address p {
+  font-family: 'Roboto Slab';
+  color: #666;
+  font-weight: 400;
+}
+#checkout .address p:last-child {
+  margin-bottom: 0;
+}
+#checkout .address p i {
+  color: rgb(254, 85, 85);
+  margin-right: 10px;
+}
+#checkout .address label {
+  margin-bottom: 0;
+}
+#checkout .address input {
+  display: none;
+}
+#checkout .address span {
+  position: absolute;
+  left: 25px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  background-image: none;
+  border: 3px solid rgb(254, 85, 85);
+  border-radius: 1000px;
+}
+#checkout input[type="radio"]:checked + label span {
+  background-color: rgb(254, 85, 85);
+  border-color: rgb(254, 85, 85);
+}
+#checkout .address-info {
+  padding: 40px 70px;
+}
+#checkout .add-address button[type="submit"] {
+  color: #fff;
+  padding: 10px 22px;
+  background-color: rgb(254, 85, 85);
+  font-family: Montserrat;
+  border-radius: 0;
+  border: none;
+  border-color: transparent;
+  float: right;
+  text-transform: uppercase;
+}
+#checkout .add-address i {
+  margin-right: 10px;
+}
+#checkout .add-address button[type="submit"]:hover {
+  background-color: #222;
+}
+#checkout .subtitle {
+  padding-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #F1F1F1 !important;
+  color: #222 !important;
+  font-family: 'Roboto Slab' !important;
+}
+#checkout .subtitle i {
+  color: rgb(254, 85, 85);
+  margin-right: 10px;
+}
+#checkout #shipping-method .subtitle {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+#checkout .shipping {
+  position: relative;
+  border-bottom: 1px solid #F1F1F1;
+  margin-bottom: 40px;
+}
+#checkout .shipping:last-child {
+  border-bottom: 0;
+}
+#checkout .shipping:hover {
+  background-color: #F1F1F1;
+  cursor: pointer;
+  border-color: #F1F1F1;
+}
+#checkout .shipping:hover h4,
+#checkout .shipping:hover p {
+  border-color: #222;
+  color: #666;
+}
+#checkout .shipping:hover span,
+#checkout .shipping:hover i {
+  color: rgb(254, 85, 85);
+}
+#checkout .shipping h3 {
+  border: none;
+  font-family: 'Montserrat';
+  margin-bottom: 0;
+  color: #222;
+  margin-top: 0;
+}
+#checkout .shipping p {
+  font-family: 'Roboto Slab';
+  color: #666;
+  font-weight: 400;
+}
+#checkout .shipping p:last-child {
+  margin-bottom: 0;
+}
+#checkout .shipping p i {
+  color: rgb(254, 85, 85);
+  margin-right: 10px;
+}
+#checkout .shipping label {
+  margin-bottom: 0;
+}
+#checkout .shipping input {
+  display: none;
+}
+#checkout .shipping span {
+  position: absolute;
+  left: 25px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 20px;
+  height: 20px;
+  background-image: none;
+  border: 3px solid rgb(254, 85, 85);
+  border-radius: 1000px;
+}
+#checkout input[type="radio"]:checked + label span {
+  background-color: rgb(254, 85, 85);
+  border-color: rgb(254, 85, 85);
+}
+#checkout .shipping-info {
+  padding: 40px 70px;
+}
+#checkout #confirm-checkout .subtitle {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+#checkout #confirm-checkout h3 {
+  color: #222;
+  font-family: 'Montserrat';
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#checkout #confirm-checkout p {
+  color: #666;
+  font-family: 'Roboto Slab';
+}
+#checkout #confirm-checkout p i {
+  margin-right: 10px;
+  color: rgb(254, 85, 85);
+}
+#checkout td,
+#checkout th {
+  border-bottom: 1px solid #F1F1F1;
+}
+#checkout .table {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+#checkout .table td:first-child {
+  width: 10%;
+}
+#checkout .table td {
+  width: 18%;
+  vertical-align: middle;
+  color: #222;
+  font-family: 'Montserrat';
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+#checkout .table td.price {
+  font-family: 'Roboto Slab';
+  font-size: 20px;
+  color: rgb(70, 184, 212)
+}
+#checkout .table td.price strike {
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 10px;
+}
+#checkout .table img {
+  width: 100%;
+  margin-right: 10px;
+}
+#checkout .table a {
+  font-family: 'Montserrat';
+  color: #222;
+}
+#checkout .table a.product-name {
+  height: 38px;
+  overflow: hidden;
+  display: inline-block;
+}
+#checkout .table a:hover {
+  color: rgb(254, 85, 85);
+}
+#checkout .table a.category {
+  font-family: 'Roboto Slab';
+  color: #ccc;
+  display: block;
+}
+#checkout .table a.category:hover {
+  color: rgb(254, 85, 85);
+}
+#checkout .table .form-control {
+  width: 50%;
+  border-color: #F1F1F1;
+}
+#checkout .table th {
+  font-family: 'Montserrat';
+  color: #222;
+  border-top: none;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+#checkout .table tr .close {
+  position: absolute;
+  top: 52px;
+  right: 0;
+  font-size: 14px;
+  color: rgb(254, 85, 85);
+  display: none;
+  opacity: 1;
+}
+#checkout .table tr .close:hover {
+  color: #ccc;
+}
+#checkout .table tr:hover .close {
+  display: inherit;
+}
+#checkout .total {
+  float: right;
+  text-align: right;
+  width: 100%;
+  margin-bottom: 40px;
+}
+#checkout .total p {
+  display: inline-block;
+  font-family: 'Montserrat' !important;
+  color: #222 !important;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+#checkout .total .price {
+  color: rgb(254, 85, 85) !important;
+  font-family: 'Roboto Slab' !important;
+  font-size: 18px;
+  width: 100px;
+}
+#checkout .total .sub {
+  margin-bottom: 5px;
+}
+#checkout #main-content .continue {
+  background-color: transparent;
+  border: 1px solid #F1F1F1;
+  padding-bottom: 9px;
+  padding-top: 9px;
+  color: #ccc;
+}
+#checkout #main-content .btn-default {
+  padding: 10px 10px;
+}
+#checkout #main-content .btn-default i {
+  top: 2px;
+  margin-right: 10px;
+}
+#checkout .confirm-products h3 {
+  margin-top: 40px !important;
+  margin-bottom: 0 !important;
+}
+#checkout .confirm-products a.btn-default {
+  margin-bottom: 40px;
+}
+#checkout #pay .subtitle {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+#checkout #pay p {
+  font-family: 'Roboto Slab';
+  color: #666;
+}
+#checkout #pay .form-control {
+  background-color: #fff;
+  border: 1px solid #F1F1F1;
+  font-family: 'Roboto Slab';
+  color: #222;
+  border-radius: 0;
+  text-transform: none;
+  margin-bottom: 40px;
+}
+
+/* LOGIN & REGISTER */
+
+#auth .title .breadcrumb {
+  margin: 0;
+  background-color: transparent;
+  padding-right: 0;
+  padding-left: 0;
+  float: right;
+}
+#auth .title .carousel-controls {
+  float: none;
+}
+#auth .title .breadcrumb a {
+  color: rgb(254, 85, 85);
+  font-family: 'Montserrat';
+}
+#auth .title .breadcrumb .active {
+  color: #ccc;
+  font-family: 'Montserrat';
+}
+#auth .title .breadcrumb a:hover {
+  color: #222;
+}
+#auth .title h2 {
+  color: #222;
+  font-family: 'Montserrat';
+  display: inline;
+  margin: 0;
+}
+#auth .register .form-control {
+  background-color: #fff;
+  border: 1px solid #F1F1F1;
+  font-family: 'Roboto Slab';
+  color: #222;
+  border-radius: 0;
+  text-transform: none;
+  margin-bottom: 20px;
+}
+#auth .register label {
+  font-family: 'Roboto Slab';
+  margin-bottom: 10px;
+  color: #666;
+  font-weight: 400;
+}
+#auth .btn-default {
+  padding: 10px;
+}
+#auth .condition {
+  margin: 20px 0;
+  font-family: 'Roboto Slab';
+  border-top: 1px solid #F1F1F1;
+  padding-top: 20px;
+  color: #222;
+}
+#auth .condition a {
+  color: rgb(254, 85, 85);
+}
+#auth .continue {
+  background-color: transparent;
+  border: 1px solid #F1F1F1;
+  padding: 9px;
+  color: #ccc;
+}
+#auth .btn-default i {
+  margin-right: 10px;
+}
+#auth .continue i {
+  margin-right: 10px;
+  margin-left: 0;
+}
+
+/* ABOUT US */
+
+#aboutus .title .breadcrumb {
+  margin: 0;
+  background-color: transparent;
+  padding-right: 0;
+  padding-left: 0;
+  float: right;
+}
+#aboutus .title .carousel-controls {
+  float: none;
+}
+#aboutus .title .breadcrumb a {
+  color: rgb(254, 85, 85);
+  font-family: 'Montserrat';
+}
+#aboutus .title .breadcrumb .active {
+  color: #ccc;
+  font-family: 'Montserrat';
+}
+#aboutus .title .breadcrumb a:hover {
+  color: #222;
+}
+#aboutus .title h2 {
+  color: #222;
+  font-family: 'Montserrat';
+  display: inline;
+  margin: 0;
+}
+#aboutus #main-content h3 {
+  font-family: 'Montserrat';
+  color: rgb(254, 85, 85);
+  text-align: center;
+}
+#aboutus #main-content hr {
+  width: 50%;
+  margin: 50px auto;
+}
+#aboutus #main-content img {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#aboutus #main-content p {
+  font-family: 'Roboto Slab';
+  color: #666;
+  line-height: 1.5;
+  text-align: center;
+  padding: 0 80px;
+}
+#aboutus #ecommerce-offers {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+#aboutus #ecommerce-offers p {
+  padding: 0;
+  display: block;
+  width: 100%;
+}
+#aboutus #ecommerce-offers p.title {
+  font-family: 'Montserrat';
+  color: #222;
+  margin-bottom: 0;
+}
+#aboutus #ecommerce-offers .title {
+  border-bottom: none;
+}
+#aboutus #ecommerce-offers .offer {
+  display: inherit;
+  align-items: inherit;
+  text-align: center;
+}
+#aboutus #ecommerce-offers i {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 0;
+  float: none;
+}
+#aboutus #ecommerce-offers .description {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+#aboutus #ecommerce-offers .offer:hover p.title {
+  color: rgb(254, 85, 85);
+}
+#aboutus .subtitle {
+  padding-bottom: 20px !important;
+  margin-top: 0;
+  margin-bottom: 20px !important;
+  border-bottom: 1px solid #F1F1F1 !important;
+  color: #222 !important;
+  font-family: 'Roboto Slab' !important;
+}
+#aboutus .subtitle i {
+  margin-right: 10px;
+  color: rgb(254, 85, 85);
+}
+#aboutus .subtitle {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  text-align: left !important;
+  color: #222 !important;
+}
+#aboutus #main-content .story p {
+  padding-right: 0;
+  padding-left: 0;
+  text-align: left !important;
+}
+#aboutus #main-content .story {
+  margin-bottom: 80px;
+  margin-top: 80px;
+  display: inline-block;
+}
+
+/* CONTACT US */
+
+#contactus .title .breadcrumb {
+  margin: 0;
+  background-color: transparent;
+  padding-right: 0;
+  padding-left: 0;
+  float: right;
+}
+#contactus .title .carousel-controls {
+  float: none;
+}
+#contactus .title .breadcrumb a {
+  color: rgb(254, 85, 85);
+  font-family: 'Montserrat';
+}
+#contactus .title .breadcrumb .active {
+  color: #ccc;
+  font-family: 'Montserrat';
+}
+#contactus .title .breadcrumb a:hover {
+  color: #222;
+}
+#contactus .title h2 {
+  color: #222;
+  font-family: 'Montserrat';
+  display: inline;
+  margin: 0;
+}
+#contactus #main-content iframe {
+  margin-bottom: 40px;
+  height: 300px;
+  width: 100%;
+}
+#contactus #main-content p {
+  color: #222;
+  font-family: 'Roboto Slab';
+}
+#contactus #main-content p i {
+  margin-right: 10px;
+  color: rgb(254, 85, 85);
+}
+#contactus #main-content .form-control {
+  border: 1px solid #F1F1F1;
+  font-family: 'Roboto Slab';
+  margin-bottom: 20px;
+}
+#contactus #main-content textarea {
+  height: 100px;
+  resize: none;
+}
+#contactus #main-content p {
+  margin-bottom: 20px;
+}
+#contactus #main-content .sub {
+  border-bottom: 1px solid #F1F1F1;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+#contactus #main-content .btn-default {
+  padding: 10px;
+}
+#contactus #main-content .btn-default i {
+  margin-right: 10px;
+}
+
+/* PROFILE */
+
+#profile .title .breadcrumb {
+  margin: 0;
+  background-color: transparent;
+  padding-right: 0;
+  padding-left: 0;
+  float: right;
+}
+#profile .title .carousel-controls {
+  float: none;
+}
+#profile .title .breadcrumb a {
+  color: rgb(254, 85, 85);
+  font-family: 'Montserrat';
+}
+#profile .title .breadcrumb .active {
+  color: #ccc;
+  font-family: 'Montserrat';
+}
+#profile .title .breadcrumb a:hover {
+  color: #222;
+}
+#profile .title h2 {
+  color: #222;
+  font-family: 'Montserrat';
+  display: inline;
+  margin: 0;
+}
+#profile #main-content iframe {
+  margin-bottom: 40px;
+  height: 300px;
+  width: 100%;
+}
+#profile #main-content p {
+  color: #222;
+  font-family: 'Roboto Slab';
+}
+#profile #main-content p i {
+  margin-right: 10px;
+  color: rgb(254, 85, 85);
+}
+#profile #main-content .form-control {
+  border: 1px solid #F1F1F1;
+  font-family: 'Roboto Slab';
+  margin-bottom: 20px;
+}
+#profile #main-content textarea {
+  height: 100px;
+  resize: none;
+}
+#profile #main-content p {
+  margin-bottom: 20px;
+}
+#profile #main-content .sub {
+  border-bottom: 1px solid #F1F1F1;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+#profile #main-content .btn-default {
+  padding: 10px;
+}
+#profile #main-content .btn-default i {
+  margin-right: 10px;
+}
+#profile td,
+#profile th {
+  border-bottom: 1px solid #F1F1F1;
+}
+#profile .table {
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+#profile .table td {
+  width: 20%;
+  vertical-align: middle;
+  color: #222;
+  font-family: 'Roboto Slab';
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+}
+#profile .table td.price {
+  font-family: 'Roboto Slab';
+  font-size: 14px;
+  color: rgb(70, 184, 212);
+}
+#profile .table td.price strike {
+  color: #ccc;
+  font-size: 14px;
+  margin-left: 10px;
+}
+#profile .table img {
+  width: 100%;
+  margin-right: 10px;
+}
+#profile .table a {
+  font-family: 'Montserrat';
+  color: #222;
+}
+#profile .table a.product-name {
+  height: 38px;
+  overflow: hidden;
+  display: inline-block;
+}
+#profile .table a:hover {
+  color: rgb(254, 85, 85);
+}
+#profile .table a.category {
+  font-family: 'Roboto Slab';
+  color: #ccc;
+  display: block;
+}
+#profile .table a.category:hover {
+  color: rgb(254, 85, 85);
+}
+#profile .table .form-control {
+  width: 50%;
+  border-color: #F1F1F1;
+}
+#profile .table th {
+  font-family: 'Montserrat';
+  color: #222;
+  border-top: none;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+#profile .table tr .close {
+  position: absolute;
+  top: 52px;
+  right: 0;
+  font-size: 14px;
+  color: rgb(254, 85, 85);
+  display: none;
+  opacity: 1;
+}
+#profile .table tr .close:hover {
+  color: #ccc;
+}
+#profile .table tr:hover .close {
+  display: inherit;
+}
+#profile .table tr .canceled {
+  color: rgb(254, 85, 85);
+}
+#profile .table tr .pending {
+  color: rgb(254, 220, 87);
+}
+#profile .table tr .completed {
+  color: #31C335;
+}
+#profile a.continue {
+  background-color: transparent;
+  border: 1px solid #F1F1F1;
+  padding: 9px;
+  color: #ccc;
+}
+
+/* ECOMMERCE OFFERS */
+
+#ecommerce-offers {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  border-top: 1px solid #F1F1F1;
+}
+#ecommerce-offers i {
+  float: left;
+  color: rgb(254, 85, 85);
+  height: 100%;
+  padding: 25px;
+  border: 1px solid #F1F1F1;
+  border-radius: 1000px;
+  margin-right: 20px;
+}
+#ecommerce-offers p {
+  color: #ccc;
+  font-family: 'Roboto Slab';
+  margin: 0;
+}
+#ecommerce-offers p.title {
+  color: #222;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+}
+#ecommerce-offers .offer {
+  display: flex;
+  align-items: center;
+}
+#ecommerce-offers .offer:hover i {
+  color: #fff;
+  background-color: #222;
+  border-color: transparent;
+}
+#ecommerce-offers .offer:hover p.title {
+  color: rgb(254, 85, 85);
+}
+#ecommerce-offers .align {
+  display: block;
+}
+
+/* NEWSLETTER */
+
+#newsletter {
+  background-color: rgb(254, 85, 85);
+  display: flex;
+  align-items: center;
+  padding: 40px 40px;
+}
+#newsletter h2 {
+  margin: 0;
+  font-family: 'Montserrat';
+  color: #fff;
+}
+#newsletter p {
+  color: #fff;
+  font-family: 'Roboto Slab';
+  margin: 0;
+}
+#newsletter .form-control {
+  height: 52px;
+  padding-left: 18px;
+  padding-right: 136px;
+}
+#newsletter button {
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  top: 1px;
+  right: 15px;
+  background-color: rgb(254, 220, 87);
+  color: #222;
+  padding: 6px 18px;
+}
+#newsletter button:hover {
+  color: #fff;
+  background-color: #222;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 80px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  background-color: #222;
+}
+footer #about-us img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+footer #about-us .btn-default {
+  border-left: 3px solid rgb(254, 85, 85);
+  color: #222;
+  font-family: 'Montserrat';
+  background-color: #fff;
+}
+footer #about-us .btn-default:hover {
+  color: rgb(254, 85, 85);
+}
+footer #about-us p {
+  color: #666;
+  margin-bottom: 20px;
+  font-family: 'Roboto Slab';
+}
+footer .links .nav li a {
+  color: #666;
+  font-family: 'Roboto Slab';
+  padding: 10px 0;
+}
+footer .links .nav li a:hover,
+footer .links .nav li a:active,
+footer .links .nav li a:focus {
+  color: rgb(254, 85, 85);
+  background-color: transparent;
+}
+footer .links .nav li a:hover i {
+  margin-right: 15px;
+}
+footer .links .nav li a i {
+  color: rgb(254, 85, 85);
+  margin-right: 10px;
+}
+footer #contact-us li p {
+  color: #666;
+  font-family: 'Roboto Slab';
+}
+footer #contact-us li p i {
+  color: rgb(254, 85, 85);
+  margin-right: 10px;
+}
+footer h5 {
+  font-family: 'Montserrat';
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+/* RIGHTS */
+
+#rights {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #111;
+}
+#rights p {
+  margin: 0;
+  color: #666;
+  font-family: 'Roboto Slab';
+}
+#rights i {
+  color: rgb(254, 85, 85);
+}
+#rights a {
+  color: rgb(254, 85, 85);
+}
+
+/* OTHERS */
+
+.ad {
+  width: 100%;
+  height: 100%;
+}
+a.ad-link {
+  margin-bottom: 40px;
+  display: inline-block;
+}
+a.ad-link:hover {
+  opacity: 0.7;
+}
+.tab-pane {
+  display: none;
+}
+.tab-pane.active {
+  display: inherit;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+/* RESPONSIVE FIXES */
+
+
+/* PHONES */
+
+@media (max-width: 768px) {
+  #profile a.continue {
+    margin-bottom: 40px;
+  }
+  #profile .title .breadcrumb {
+    float: none;
+    margin-top: 10px;
+  }
+  #contactus #main-content .btn-default {
+    margin-bottom: 40px;
+  }
+  #contactus .title .breadcrumb {
+    float: none;
+    margin-top: 10px;
+  }
+  #aboutus #main-content .story {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  #aboutus #main-content .story .subtitle {
+    margin-top: 20px;
+  }
+  #aboutus #main-content p {
+    padding: 0;
+  }
+  #aboutus .title .breadcrumb {
+    float: none;
+    margin-top: 10px;
+  }
+  #auth .title .breadcrumb {
+    float: none;
+    margin-top: 10px;
+  }
+  #checkout #confirm-checkout h3 {
+    margin-top: 40px;
+  }
+  #checkout .charge h3 {
+    margin-top: 20px !important;
+  }
+  #checkout #mobile-cart p.price {
+    color: rgb(70, 184, 212);
+    font-family: 'Roboto Slab';
+  }
+  #checkout #mobile-cart p.category {
+    color: #ccc;
+    font-family: 'Roboto Slab';
+  }
+  #checkout #mobile-cart p {
+    font-family: 'Montserrat';
+    display: inherit;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  #checkout #mobile-cart a p:last-child {
+    margin-bottom: 0;
+  }
+  #checkout #mobile-cart img {
+    margin-bottom: 0;
+  }
+  #checkout #mobile-cart {
+    margin-top: 40px;
+  }
+  #checkout .add-address p {
+    margin-top: 40px;
+  }
+  #checkout .row .form-control {
+    margin-bottom: 20px;
+  }
+  #checkout .addresses {
+    margin-bottom: 40px;
+  }
+  #checkout .address-info {
+    padding-right: 20px;
+  }
+  #checkout .title .breadcrumb {
+    float: none;
+    margin-top: 10px;
+  }
+  #mobile-cart .form-control {
+    width: 100px;
+    display: inline;
+    float: right;
+    bottom: 7px;
+    position: relative;
+  }
+  #mobile-cart .product-actions a {
+    display: inline !important;
+    width: auto !important;
+  }
+  #mobile-cart {
+    margin-bottom: 40px;
+  }
+  #mobile-cart img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #mobile-cart .product-info a {
+    width: 100%;
+    display: block;
+  }
+  #mobile-cart .product-info a.product-name {
+    color: #222;
+    font-family: 'Montserrat';
+    height: 40px;
+    overflow: hidden;
+  }
+  #mobile-cart .product-info a.product-category {
+    color: #ccc;
+    margin-bottom: 20px;
+    font-family: 'Roboto Slab';
+  }
+  #mobile-cart .product-info a:hover {
+    text-decoration: none;
+    color: rgb(254, 85, 85);
+  }
+  #mobile-cart .product-info p {
+    color: rgb(70, 184, 212);
+    font-family: 'Roboto Slab';
+    font-size: 18px;
+    margin: 0;
+    display: inline;
+  }
+  #mobile-cart .product-info p strike {
+    color: #ccc;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  #mobile-cart .product-info .rating {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline;
+    float: right;
+  }
+  #mobile-cart .product-info .rating .positive {
+    color: rgb(254, 85, 85);
+  }
+  #mobile-cart .product-info .rating .negative {
+    color: #ccc;
+  }
+  #mobile-cart .product-info .product-actions {
+    border-top: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+    padding: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #mobile-cart .product-info .product-actions a {
+    color: #222;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+  }
+  #mobile-cart .product-info .product-actions a:hover {
+    color: rgb(254, 85, 85);
+  }
+  #mobile-cart .product-info .product-actions a i {
+    color: rgb(254, 85, 85);
+    margin-right: 10px;
+  }
+  #cart #main-content .continue {
+    margin-bottom: 10px;
+  }
+  #cart .title .breadcrumb {
+    float: none;
+    margin-top: 10px;
+  }
+  #cart #main-content .btn-default {
+    width: 100%;
+  }
+  #cart h2 {
+    display: block;
+  }
+  #product .product-actions .btn-group {
+    margin-bottom: 20px;
+  }
+  #sidebar .title .carousel-controls {
+    display: inline !important;
+    float: right;
+    margin: 0;
+    width: auto;
+    text-align: inherit;
+  }
+  #sidebar .title .carousel-controls a {
+    color: #ccc;
+    border-top: 3px solid #F1F1F1;
+    padding: 5px;
+    display: inline-block;
+    border-bottom: none;
+  }
+  #sidebar .title .carousel-controls a:first-child {
+    margin-right: 10px;
+  }
+  #sidebar .title .carousel-controls a:first-child .glyphicon {
+    left: 1px;
+  }
+  #sidebar .title .carousel-controls a:last-child {
+    margin-left: 10px;
+  }
+  #sidebar .title .carousel-controls a:hover {
+    border-color: rgb(254, 85, 85);
+  }
+  #sidebar .deal-end {
+    margin-bottom: 40px;
+  }
+  #category-list img {
+    margin-bottom: 20px;
+  }
+  #shop-category #main-content .breadcrumb {
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F1F1F1;
+    padding-left: 0;
+    width: 100%
+  }
+  #category-list .product-info .product-actions {
+    border-bottom: 1px solid #F1F1F1;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+  }
+  #special-products .product-info .product-actions {
+    border-top: none;
+  }
+}
+
+/* TABLETS */
+
+@media (max-width: 991px) {
+  #shop-category #main-content .item-display .item-display-info p {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  #shop-category #main-content .breadcrumb {
+    display: block;
+    margin-top: 10px;
+    float: left;
+    padding-left: 0;
+  }
+  #shop-category #main-content h2 {
+    display: block;
+  }
+  #header .header-col {
+    display: block;
+  }
+  #header {
+    margin-bottom: 40px;
+  }
+  #header .row {
+    display: block;
+  }
+  #header .header-col form {
+    margin-top: 40px;
+  }
+  #mobile-navbar {
+    background-color: rgb(254, 85, 85);
+  }
+  #mobile-navbar ul>li>a {
+    color: #fff;
+  }
+  #mobile-navbar .right-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+  }
+  #mobile-navbar .left-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+  }
+  #mobile-navbar .title {
+    text-align: center;
+    font-family: 'Montserrat';
+  }
+  #mobile-navbar .nav>li>a:focus,
+  #mobile-navbar .nav>li>a:hover {
+    background-color: transparent;
+    color: #fff;
+  }
+  #sidebar a.ad-link:last-child {
+    margin-bottom: 40px !important;
+  }
+  #ecommerce-offers .offer {
+    margin-bottom: 20px;
+  }
+  #ecommerce-offers .offer:last-child {
+    margin-bottom: 0;
+  }
+  footer .links,
+  footer #about-us {
+    margin-bottom: 40px;
+  }
+  #newsletter {
+    display: block;
+    text-align: center;
+  }
+  #newsletter form {
+    margin-top: 20px;
+  }
+  #newsletter button {
+    top: 21px;
+  }
+  #best-sellers .product-info .product-actions,
+  #special-products .product-info .product-actions {
+    margin-bottom: 40px;
+  }
+  #cart .table tr .close {
+    top: 36px !important;
+  }
+}
+
+/* SMALL LAPTOPS */
+
+@media (max-width: 1200px) {
+  footer .links,
+  footer #about-us {
+    margin-bottom: 40px;
+  }
+  #shopping-cart .dropdown-menu li.cart-check a {
+    width: 100%;
+  }
+  #filter .filter-submit .btn-default {
+    margin-bottom: 20px;
+  }
+  #cart .table tr .close {
+    top: 42px;
+  }
+}

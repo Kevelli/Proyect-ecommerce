@@ -1,0 +1,40 @@
+﻿@page "/login"
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+    ViewData["BodyID"] = "auth";
+}
+
+<partial name="_SidebarPartial" />
+
+<div class="col-xs-10 col-xs-offset-1 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-sm-8 col-md-9 col-lg-9" id="main-content">
+    <div class="title">
+        <h2>@ViewData["Title"]</h2>
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li class="active">@ViewData["Title"]</li>
+        </ol>
+    </div>
+    <div class="row">
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 register">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-floating">
+                <label asp-for="Input.Email"></label>
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true"/>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <label asp-for="Input.Password"></label>
+                <input asp-for="Input.Password" class="form-control" autocomplete="password" aria-required="true"/>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <a href="/register" class="btn btn-default continue"><i class="glyphicon glyphicon-chevron-left"></i>Register</a>
+            <button type="submit" class="btn btn-default pull-right"><i class="glyphicon glyphicon-user"></i>Login</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
